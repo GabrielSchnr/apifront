@@ -15,7 +15,7 @@ export class AppComponent {
   apiURL : string;
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'https://apitarefas-production-6ab5.up.railway.app/api/getAll';
+    this.apiURL = 'https://apitarefas-production-1cdd.up.railway.app/';
     this.READ_tarefas();
   }
 
